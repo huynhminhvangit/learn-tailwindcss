@@ -7,7 +7,7 @@
 }
 
 .badges {
-  @apply bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
+  @apply flex justify-center items-center text-xs bg-secondary-100 text-secondary-200 uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
 }
 
 .btn {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learning Tailwind CSS - Home</title>
+  <title>Learning Tailwind CSS - Learn</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -24,8 +24,8 @@
           </div>
         </div>
         <ul class="text-sm mt-6 hidden md:block" id="menu">
-          <li class="py-1 text-gray-700 font-bold">
-            <a href="#" class="px-4 flex justify-end border-r-4 border-primary">
+          <li class="py-1">
+            <a href="/" class="px-4 flex justify-end border-r-4 border-white">
               <span>Home</span>
               <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@
               </svg>
             </a>
           </li>
-          <li class="py-1">
+          <li class="py-1 ">
             <a href="/about.html" class="px-4 flex justify-end border-r-4 border-white">
               <span>About</span>
               <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -57,8 +57,8 @@
               </svg>
             </a>
           </li>
-          <li class="py-1">
-            <a href="/learn.html" class="px-4 flex justify-end border-r-4 border-white">
+          <li class="py-1 text-gray-700 font-bold">
+            <a href="/learn.html" class="px-4 flex justify-end border-r-4 border-blue-500">
               <span>Learn</span>
               <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
@@ -95,79 +95,50 @@
       </div>
 
       <header>
-        <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
-        <h3 class="text-2xl font-semibold">For Vang Huynh</h3>
+        <h2 class="text-gray-700 text-6xl font-semibold">Learn</h2>
+        <h3 class="text-2xl font-semibold">By Vang Huynh</h3>
       </header>
 
-      <div>
-        <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
+      <div class="mt-5">
+        <h3 class="text-sm font-bold mb-1 font-serif">Responsive Design</h3>
+        <div class="w-48 h-48 2xl:w-96 2xl:h-96 xl:w-80 xl:h-80 lg:w-72 lg:h-72 md:w-64 md:h-64 bg-blue-300"></div>
 
-        <div class="mt-8 grid lg:grid-cols-3 gap-10">
-          <!-- cards go here -->
-          <div class="card hover:shadow-lg transform hover:scale-105 transition ease-out duration-300">
-            <img src="img/stew.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
-            <div class="m-4">
-              <span class="font-bold">5 Bean Chili Stew</span>
-              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
-            </div>
-            <div class="badges">
-              <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-              <span>25 mins</span>
+        <div class="mt-5">
+          <div class="text-sm font-bold mb-1 text-center">
+            This is an example
+          </div>
+          <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+              <div class="md:flex-shrink-0">
+                <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/curry.jpg"
+                  alt="Man looking at item at a store">
+              </div>
+              <div class="p-8">
+                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
+                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding
+                  customers for your new business</a>
+                <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five
+                  ideas you can use to find your first customers.</p>
+              </div>
             </div>
           </div>
-
-          <!-- cards go here -->
-          <div class="card hover:shadow-lg transform hover:scale-105 transition ease-out duration-300">
-            <img src="img/noodles.jpg" alt="noodles" class="w-full h-32 sm:h-48 object-cover">
-            <div class="m-4">
-              <span class="font-bold">Veg Noodles </span>
-              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
-            </div>
-            <div class="badges">
-              <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-              <span>60 mins</span>
-            </div>
-          </div>
-
-          <!-- cards go here -->
-          <div class="card hover:shadow-lg transform hover:scale-105 transition ease-out duration-300">
-            <img src="img/curry.jpg" alt="curry" class="w-full h-32 sm:h-48 object-cover">
-            <div class="m-4">
-              <span class="font-bold">Tofu Curry</span>
-              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
-            </div>
-            <div class="badges">
-              <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-              </svg>
-              <span>30 mins</span>
-            </div>
-          </div>
-
-        </div>
-
-        <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
-
-        <div class="mt-8">
-          <!-- cards go here -->
         </div>
       </div>
 
-      <div class="flex justify-center">
-        <div
-          class="btn bg-secondary-100 text-secondary-200 p-3 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300">
-          Load more</div>
+      <div class="mt-5">
+        <h3 class="text-sm font-bold mb-1 font-serif">Hover, Focus & Other States</h3>
+        <form class="flex w-full max-w-sm mx-auto space-x-3">
+          <input
+          placeholder="Your mail"
+            class="flex-1 appearance-none border border-transparent w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-md rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent">
+          <button type="button"
+            class="flex-shrink-0 bg-purple-600 text-white text-base font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-purple-200">
+            Sign up
+          </button>
+        </form>
       </div>
+
+
     </main>
   </div>
 

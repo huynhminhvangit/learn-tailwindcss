@@ -32799,6 +32799,9 @@ video {
   top: 0px;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgba(226, 226, 213, var(--tw-bg-opacity));
